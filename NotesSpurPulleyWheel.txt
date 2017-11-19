@@ -85,3 +85,34 @@ M3 screw head is 6mm
 bearing inner ring is 5mm
 V-wheel is 7mm width and 17.5mm high.
 bearings sticks out by 1mm so width is 9mm.
+
+Center Hole is 2.60mm +/- 0.12. so a bit too tight for 3mm latex tubing.
+Tubing is tied at bottom of previous beam and threaded through inner hole to top.
+This provides elastic force to pull back down the beam segment. Otherwise, elevator lift is dependant on gravity
+  to bring it back down as cord is unwound.
+
+http://www.revrobotics.com/rev-41-1368/ Small Pulley Bearings
+    Material: Hight Carbon Steel
+    ID: 3mm
+    OD: 12mm
+    Width: 4mm
+    V-groove Width: 2.5mm
+    V-groove Depth: 1mm
+    
+These v-groove bearing pulleys fit on an M3 x 16mm Hex Cap Screw and can be mounted directly onto extrusion. Use with 15mm Linear Motion Kits and a high
+tensile strength no-stretch string, such as kevlar string or spectra fishing line, to create an elevator.
+
+Use hex cap screw like T-nut with nut, bearing, nylock nut. nuts contact inner bearing washer.
+hex cap width is 5.5mm which is same as M3 nut.
+
+http://www.revrobotics.com/REV-41-1163/ Surgical Tubing 3mm
+This stretchy latex rubber tubing is sized to fit through any of the M3 holes in REV Robotics brackets, wheels, gears or other motion products. String
+tubing between outside holes on two wheels to create a compliant intake.
+Specifications:
+    Color: Black
+    Material: Rubber Latex
+    Length: 3m
+    Outer Diameter: 3mm
+
+http://www.revrobotics.com/REV-41-1162/ UHMWPE Cord, 10M
+High strength string for use with the small Pulley Bearings and the 15mm Linear Motion Kit to create a powered lift. 
