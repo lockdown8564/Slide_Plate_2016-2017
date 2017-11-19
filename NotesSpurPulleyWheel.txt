@@ -1,0 +1,87 @@
+http://www.thingiverse.com/OpenBeamUSA/designs
+TL-400-0101-002.DXF IGS STEP SLDPRT files
+STL files for L-plate and T-plate here as well
+
+Page 2 Drawing View4 in TL00-0101-002-02_-_OpenBeam_V2_Creative_Commons.PDF has incorrect dimensions.
+Should be 5.153mm then 4.694mm then 3.753mm then 1.4mm.  Total is 15mm.
+Used Autocad 123D measurement tool on DXF file to confirm distances.
+So the 1.4mm is flange depth of M3 slot. M3 slot is 3.2mm wide.
+
+
+Dimensions are in mm. Going left to right along edge.
+14 then 3 then 3 then 6.1 then 1.5 then 1.25 then 2 then 5.5 then 2 then 1.25 then 1.5 then 6.1 then 3 then 3 and then 14.
+It meets certain requirements. 5.5 < 5.80. 1.5 > 1.4. 2mm < 2.30. 6.1+3+6.1=15.2 > 15mm for fixed bar.
+The depth into slot is 2+1.5=3.50.  The slot cavity depth is 3.70 but our stem length of 1.5 is greater than the 1.4 minimum. A greater
+stem length would mean the next bar would be farther away from the fixed bar.
+Width is 15.2mm so it is wide enough to fit the fixed bar.
+
+              5.5
+          +---------+
+        2 |1.25     | 2
+          +--+   +--+
+             |   |
+             |   |1.5
+    3        |   |        3
+  +---+------+   +------+---+
+ 3|   |  6.1        6.1 |   |3
+  +   +-----------------+   +
+  |   |       15.2      |   |
+14|   |                 |   |14
+  |   |                 |   |
+  |   |                 |   |
+  +---+                 +---+
+
+Printed and it was tight. Used dremel too and it works now.
+so changed 1.5 height of stem to 1.6. width of stem from 3 to 2.9.
+Hole position also changed. Originally 10.5 from 3x3 outside corner.
+Use 3+7.6=10.6 to account for starting at outside of OpenBeam edge.
+
+              5.3
+          +---------+
+      1.9 |1.25     | 1.9
+          +--+   +--+
+             |   |
+             |   |1.7
+    3        |   |        3
+  +---+------+   +------+---+
+ 3|   |  6.2  2.8  6.2  |   |3
+  +   +-----------------+   +
+  |   |       15.2      |   |
+14|   |                 |   |14  <-- d=3.3/r=1.65 Holes at 10.7 from 3mm side and 7 and 21 down.
+  |   |                 |   |
+  |   |                 |   |
+  +---+                 +---+
+  
+Cover Plate 14x14
+0  start
+2mm cover top
+13 down for first hole
+24 down for start of solid block
+28 down for second hole
+32 bottom
+rectangle cut out is offset (3,2) from 3mm corner and then size is 22,11,14
+
+http://openbuildspartstore.com/smooth-idler-pulley-wheel-kit/ $5.45
+two 625 2RS 5x16x5 ball bearings, 5mm precision shim, 1/8" nylon spacer, M5*25mm low profile screw, 1 lock nut with nylon insert
+Screw + ball bearing + nylon spacer + ball bearing through Wheel + shim + nut
+can fit up to 9mm belt. this is why the nylon spacer is 3mm.
+spacer is to prevent binding between the 2 bearings but there are barriers within the pulley wheel aleady.
+shim is to prevent binding to last bearing. screw head is similar in size to shim to prevent binding to first bearing.
+M5 included so we just have to drill out more space for this screw.
+
+https://www.inventables.com/categories/machine-components/v-wheels also lists a 3mm V-wheel.
+https://www.inventables.com/technologies/dual-bearing-v-wheel-kit-3mm-bore $4.15 30272-02
+Item 	                                                  Qty
+V-Wheel - 25202-02 	                                  1
+Precision Shim Washer - 25201-02 	                  1
+Sealed Bearing - 3mm ID x 10mm OD x 4mm Thick - 30164-01  2
+These bearings are 623 RS vs the other 625 2RS
+Shim Washer 3mm ID 5.5mm OD 1mm Thick
+b17064_rev_1.pdf is 3mm V-wheel
+b30067_rev_1.pdf is 3mm V-wheel assembly
+Dual Bearing V-Wheel Kit, 3mm Bore:
+shim is 5.5mm OD
+M3 screw head is 6mm
+bearing inner ring is 5mm
+V-wheel is 7mm width and 17.5mm high.
+bearings sticks out by 1mm so width is 9mm.
